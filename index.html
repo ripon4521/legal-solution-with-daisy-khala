@@ -8,8 +8,95 @@
     
 <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+<!-- fonts  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700;800&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<!-- fontawosmoe link  -->
+<script src="https://kit.fontawesome.com/b3e1f6f2b6.js" crossorigin="anonymous"></script>
+<!-- row css style  -->
+<link rel="stylesheet" href="style.css">
+<style>
+    .font-eb{
+        font-family: 'EB Garamond', serif;
+    }
+    .font-popins{
+        font-family: 'Poppins', sans-serif;
+    }
+</style>
 </head>
-<body class="">
-    
+<body class="container mx-auto" >
+    <header>
+        <!-- navbar section  -->
+        <nav class="flex md:gap-5  justify-between flex-col lg:flex-row items-center py-14">
+            <div>
+                <img src="./images/logo2.png" alt="">
+            </div>
+            <div >
+                <ul class="flex lg:flex-row md:flex-row  mt-5 gap-3 md:gap-14 lg:gap-14 font-popins ">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Service </a>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </li>
+                    <li>
+                        <a href="#">Case</a>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <button class="btn btn-primary mt-5">Free Consultation </button>
+            </div>
+        </nav>
+
+
+
+        <!-- banner section  -->
+
+        <section>
+            <div class="hero h-[550px] banner">
+                <div class=""></div>
+                <div class="hero-content text-center ">
+                  <div class="">
+                    <h1 class="mb-5 text-7xl font-extrabold  w-[668px] text-white mx-auto font-eb">We Provide Effective <br> Legal Solutions</h1>
+                    <p class="mb-5 text-white w-[668px] mx-auto font-popins">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                   
+                    <div>
+                        <input type="text" placeholder="Search your services" class="input input-bordered w-3/5 h-14 " /> 
+                        <button class="btn btn-primary h-14 ml-5"> Search</button>
+
+                    </div>
+
+                    <!-- <div class="form-control w-80 pt-5">
+                        
+                        <div class="">
+                         
+                         
+                        </div>
+                        <button class="btn btn-primary absolute top-0 right-0 rounded-l-none">Search</button>
+                      </div> -->
+                  </div>
+                </div>
+              </div>
+        </section>
+      
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
